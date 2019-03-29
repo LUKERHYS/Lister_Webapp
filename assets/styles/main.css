@@ -1,0 +1,91 @@
+/* google fonts*/
+@import url("https://fonts.googleapis.com/css?family=Germania+One|Open+Sans:300");
+/* Font variables */
+/* Color variables */
+/* Global settings */
+body {
+  padding-left: 20%;
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #F3F3F3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+h1, h2 {
+  color: #565656;
+  font-family: "Open Sans", sans-serif;
+}
+
+p, a {
+  color: #565656;
+  font-family: "Open Sans", sans-serif;
+}
+
+a:hover {
+  color: #3BB64B;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* div classes */
+.top_container {
+  border-top-style: solid;
+  border-top-color: #d6d7d8;
+  display: flex;
+  width: 70%;
+  height: 250px;
+  margin: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.middle_container {
+  border-top-style: solid;
+  border-top-color: #d6d7d8;
+  display: flex;
+  width: 70%;
+  height: 250px;
+  margin: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottom_container {
+  border-top-style: solid;
+  border-top-color: #d6d7d8;
+  display: flex;
+  width: 70%;
+  height: 250px;
+  margin: 10px;
+  /* listing_info form */
+}
+
+.listing_info {
+  display: flex;
+}
+
+label {
+  padding-bottom: 0;
+  font-family: "Open Sans", sans-serif;
+  color: #565656;
+}
+
+.description_input {
+  width: 90px;
+  height: 15%;
+}
+
+/* Image Upload DROPZONE */
+.dropzone {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-style: dotted;
+  border-color: #3BB64B;
+  border-radius: 25px;
+  width: 50%;
+  height: 75%;
+}
+
+/*# sourceMappingURL=main.css.map */

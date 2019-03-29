@@ -1,0 +1,90 @@
+/* google fonts*/
+@import url('https://fonts.googleapis.com/css?family=Germania+One|Open+Sans:300')
+
+/* Font variables */
+$open-sans: 'Open Sans', sans-serif
+$Germania: 'Germania One', cursive
+
+/* Color variables */
+$darkgreen: #005E35
+$lightgreen: #3BB64B
+$offwhite: #F3F3F3
+$fontgrey: #565656
+$palegrey: #d6d7d8
+
+/* Global settings */
+body
+  padding-left: 20%
+  margin: 0
+  font-family: sans-serif
+  background-color: $offwhite
+  display: flex
+  flex-direction: column
+  justify-content: space-between
+
+h1, h2
+  color: $fontgrey
+  font-family: $open-sans
+
+p, a
+  color: $fontgrey
+  font-family: $open-sans
+
+a:hover
+  color: $lightgreen
+  font-family: $open-sans
+
+
+/* div classes */
+.top_container
+  border-top-style: solid
+  border-top-color: $palegrey
+  display: flex
+  width: 70%
+  height: 250px
+  margin: 10px
+  justify-content: center
+  align-items: center
+
+.middle_container
+  border-top-style: solid
+  border-top-color: $palegrey
+  display: flex
+  width: 70%
+  height: 250px
+  margin: 10px
+  justify-content: center
+  align-items: center
+
+.bottom_container
+  border-top-style: solid
+  border-top-color: $palegrey
+  display: flex
+  width: 70%
+  height: 250px
+  margin: 10px
+
+  /* listing_info form */
+.listing_info
+  display: flex
+
+label
+  padding-bottom: 0
+  font-family: $open-sans
+  color: $fontgrey
+
+.description_input
+  width: 90px
+  height: 15%
+
+
+/* Image Upload DROPZONE */
+.dropzone
+  display: flex
+  align-items: center
+  justify-content: center
+  border-style: dotted
+  border-color: $lightgreen
+  border-radius: 25px
+  width: 50%
+  height: 75%
