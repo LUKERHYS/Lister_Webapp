@@ -4,11 +4,8 @@
 /* Color variables */
 /* Global settings */
 body {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
+  padding-left: 20%;
   margin: 0;
-  padding: 0;
   font-family: sans-serif;
   background-color: #F3F3F3;
 }
@@ -16,10 +13,6 @@ body {
 h1, h2 {
   color: #565656;
   font-family: "Open Sans", sans-serif;
-}
-
-h1 {
-  align-self: left;
 }
 
 p, a {
@@ -32,35 +25,13 @@ a:hover {
   font-family: "Open Sans", sans-serif;
 }
 
-/* Main Content Alignment */
-/*div 
- * border-style: solid
- * border-color: red */
-.banner {
-  width: 100%;
-  height: 8vw;
-  margin: 0;
-  background-color: #3BB64B;
-}
-
-.main_contain {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  border-style: dashed;
-  border-color: red;
-}
-
+/* div classes */
 .top_container {
   border-top-style: solid;
   border-top-color: #d6d7d8;
-  display: flex;
   width: 70%;
   height: 250px;
   margin: 10px;
-  padding-left: 20px;
-  justify-content: left;
-  align-items: center;
 }
 
 .middle_container {
@@ -84,15 +55,9 @@ a:hover {
   /* listing Description Form */
 }
 
-label {
-  padding-bottom: 0;
-  font-family: "Open Sans", sans-serif;
-  color: #565656;
-}
-
 .description_input {
-  width: 100%;
-  height: 25px;
+  width: 50%;
+  height: 100px;
 }
 
 /* Image Upload DROPZONE */
@@ -107,4 +72,4 @@ label {
   height: 75%;
 }
 
-/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=maincc.map */
