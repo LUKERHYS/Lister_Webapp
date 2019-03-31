@@ -40,7 +40,7 @@ a:hover
 
 
 /* Main Content Alignment */
-/*div 
+div 
   border-style: solid
   border-color: red
 
@@ -54,51 +54,66 @@ a:hover
   display: flex
   flex-direction: column
   align-items: center
-  border-style: dashed
-  border-color: red
 
+/* Top Contianer */
 .top_container
   border-top-style: solid
   border-top-color: $palegrey
-  padding-top: 10px
   display: flex
   width: 70%
-  height: 250px
+  height: auto
+  padding: 20px
   margin: 10px
   padding-left: 20px
-  justify-content: left
-  align-items: center
-  
+  justify-content: space-around
+
+/* Item Specs Form Styles */
+input
+  border: none
+  padding: 5px
+  font-size: 25px
+  font-family: $open-sans
+  color: $fontgrey
+
+label
+  font-family: $open-sans
+  color: $fontgrey
+
+.top_child_left
+  display: flex
+  flex-direction: column
+  padding-top: 10px
+  display: flex
+  width: 40%
+  height: auto
+  padding: 20px
+  margin: 10px
+  padding-left: 20px
+
+.top_child_right
+  display: flex
+  flex-direction: column
+  padding-top: 10px
+  display: flex
+  width: 40%
+  height: auto
+  padding: 20px
+  margin: 10px
+  padding-left: 20px
+
+/* Middle Container */
 .middle_container
   border-top-style: solid
   border-top-color: $palegrey
   display: flex
   width: 70%
-  height: 250px
+  height: auto
+  padding:20px
   margin: 10px
   justify-content: center
   align-items: center
 
-.bottom_container
-  border-top-style: solid
-  border-top-color: $palegrey
-  display: flex
-  width: 70%
-  height: 250px
-  margin: 10px
-
-  /* listing Description Form */
-label
-  padding-bottom: 0
-  font-family: $open-sans
-  color: $fontgrey
-
-.description_input
-  width: 100%
-  height: 25px
-
-
-/* Image Upload DROPZONE */
+  /* Image Upload DROPZONE */
 .dropzone
   display: flex
   align-items: center
@@ -106,5 +121,15 @@ label
   border-style: dotted
   border-color: $lightgreen
   border-radius: 25px
-  width: 50%
-  height: 75%
+  width: 45%
+  height:250px
+
+/* Bottom Container */
+.bottom_container
+  border-top-style: solid
+  border-top-color: $palegrey
+  display: flex
+  width: 70%
+  height: auto
+  padding: 20px
+  margin: 10px
