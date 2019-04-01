@@ -8,47 +8,63 @@
 	</head>
 	<body>
 	<div class="banner">
-			<img src="assets/images/logo.png" alt="">
+		<div class="logo"><img src="assets/images/gc4c_logo.jpg" alt=""></div>
+			<div class="app_title"><h1>GC4C PRODUCT LISTER</h1></div>
+				<div class="search_bar"><input type="text" name="" value="search"></div>
 		</div>
-
 		<div class="main_contain">
-			<h1>Listing Information</h1>
-				<div class="top_container">
-					<div class="top_child_left"
+		<h1>Title</h1>
+			<div class="item_title_contain">
+				<form class="item_title" action="index.html" method="post">
+					<input class="description_input" type="text" name="title" value=""><br/>
+				</div>
+			<h1>Item Specifics</h1>
+				<div class="item_specifics_container">
+					<div class="item_specifics_child_left"
 						<form class="item_specifics" action="index.html" method="post">
-							<label for="">Title: </label>
+							<label for="">Condition: </label>
 							<input class="description_input" type="text" name="title" value=""><br/>
-							<label for="">Model: </label>
-							<input class="description_input" type="text" name="title" value=""><br/>
-							<label for="">Type: </label>
-							<input class="description_input" type="text" name="title" value=""><br/>
-							<label for="">Loft: </label>
+							<label for="">Club Size: </label>
 							<input class="description_input" type="text" name="title" value=""><br/>
 							<label for="">Flex: </label>
 							<input class="description_input" type="text" name="title" value=""><br/>
-							<label for="">Shaft: </label>
+							<label for="">Custom Bundle: </label>
+							<input class="description_input" type="text" name="title" value=""><br/>
+							<label for="">Modified Item: </label>
 							<input class="description_input" type="text" name="title" value=""><br/>
 						</form>	
 					</div>	
-					<div class="top_child_right"
+					<div class="item_specifics_child_middle"
+						<form class="item_specifics" action="index.html" method="post">
+							<label for="">Brand: </label>
+							<input class="description_input" type="text" name="title" value=""><br/>
+							<label for="">Model: </label>
+							<input class="description_input" type="text" name="title" value=""><br/>
+							<label for="">Shaft Material: </label>
+							<input class="description_input" type="text" name="title" value=""><br/>
+							<label for="">Head Material: </label>
+							<input class="description_input" type="text" name="title" value=""><br/>
+							<label for="">Grade: </label>
+							<input class="description_input" type="text" name="title" value=""><br/>
+						</form>	
+					</div>
+					<div class="item_specifics_child_right"
 						<form class="iptem_secifics" action="index.html" method="post">
-							<label for="">Material: </label>
+							<label for="">Club Type: </label>
 							<input class="description_input" type="text" name="title" value=""><br/>
-							<label for="">Measures: </label>
+							<label for="">Colour: </label>
 							<input class="description_input" type="text" name="title" value=""><br/>
-							<label for="">Grip: </label>
+							<label for="">Dexterity: </label>
 							<input class="description_input" type="text" name="title" value=""><br/>
-							<label for="">Grip Size: </label>
+							<label for="">Gender/ Age: </label>
 							<input class="description_input" type="text" name="title" value=""><br/>
-							<label for="">Head Cover: </label>
-							<input class="description_input" type="text" name="title" value=""><br/>
-							<label for="">Wrench: </label>
+							<label for="">Country/Region of Manufacture: </label>
 							<input class="description_input" type="text" name="title" value=""><br/>
 						</form>	
 					</div>
 				</div>
 			<h1>Image Upload</h1>
-				<div class="middle_container">
+				<div class="image_upload_container">
 						<form action="/file-upload" class="dropzone">
 							<div class="fallback">
 							  <input name="file" type="file" multiple />
@@ -56,7 +72,10 @@
 						  </form>
 				</div>
 			<h1>Actions</h1>
-				<div class="bottom_container">
+				<div class="actions_container">
+					<button class="list_button">List</button>
+					<button class="preview_button">Preview</button>
+					<button class="clear_button">Clear</button>
 				</div>
 		</div>
 	</body>
